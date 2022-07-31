@@ -30,3 +30,8 @@
   - [ ] Test cases are written wherever possible
   - [ ] Methods return early without compromising code readability
   - [ ] Loop iteration and off by one are taken care of
+
+# Architecture
+  - [ ] Design patterns if used are correctly applied
+  - [ ] A class should have only a single responsibility (i.e. only one potential change in the software's specification should be able to affect the specification of the class)
+  - [ ] Many client-specific interfaces are better than one general-purpose interface.
