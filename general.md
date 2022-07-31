@@ -1,0 +1,32 @@
+# General
+  - [ ] The code works
+  - [ ] The code is easy to understand
+  - [ ] Names are simple and if possible short
+  - [ ] Names are spelt correctly
+  - [ ] Names contain units where applicable
+  - [ ] Limited usages of [magic numbers](http://c2.com/cgi/wiki?MagicNumber)
+  - [ ] No hard coded constants that could possibly change in the future
+  - [ ] All variables are in the smallest scope possible
+  - [ ] There is no commented out code
+  - [ ] Variables are not accidentally used with null values
+  - [ ] Variables are immutable where possible
+  - [ ] Code is not repeated or duplicated
+  - [ ] No complex/long boolean expressions
+  - [ ] No negatively named boolean variables
+  - [ ] No empty blocks of code
+  - [ ] Ideal data structures are used
+  - [ ] Constructors do not accept null/none values
+  - [ ] Catch clauses are fine grained and catch specific exceptions
+  - [ ] Exceptions are not eaten if caught, unless explicitly documented otherwise
+  - [ ] Files/Sockets and other resources are properly closed even when an exception occurs in using them
+  - [ ] `null` is not returned from any method
+  - [ ] == operator and === (and its inverse !==) are not mixed up
+  - [ ] Floating point numbers are not compared for equality
+  - [ ] Loops have a set length and correct termination conditions
+  - [ ] Blocks of code inside loops are as small as possible
+  - [ ] No object exists longer than necessary
+  - [ ] No memory leaks
+  - [ ] Code is unit testable
+  - [ ] Test cases are written wherever possible
+  - [ ] Methods return early without compromising code readability
+  - [ ] Loop iteration and off by one are taken care of
